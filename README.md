@@ -1,6 +1,6 @@
 package Vechicle'
 
-Class Car {
+class Car {
   String nameS;
   String [] nameA;
   
@@ -15,7 +15,7 @@ Class Car {
 
 package Vechicle;
 
-Class Test{ 
+class Test{ 
 
   public static void main(String [] args) {
 
