@@ -1,32 +1,40 @@
+package Vechicle'
+
 Class Car {
   String nameS;
   String [] nameA;
   
-  setName() 
-  {nameA = p1;}
+  public void setName(String [] p1) {
+  nameA = p1;
+  }
   
-  setName() 
-  {nameS = p2;}
-  
-Class Test 
+  public void setName(String p2) {
+  nameS = p2;
+  }
+}  
 
-public void main 
+package Vechicle;
 
-String [] fA = {"11", "22"};
-String fS = "33 44";
-Car f1 = new Car();
+Class Test{ 
 
-fl.setName(fA);
-f1.setName(fS);
-System.out.println("Print-1; " + fA[0] + "; " + f1.name[0]);
+  public static void main(String [] args) {
 
-Car [] f2 = new Car[2];
-f2[0] = f1;
-System.out.println("Print-2: " + f2[0].nameA[0] + "; " + f2[0].nameA[1]);
+  String [] fA = {"11", "22"};
+  String fS = "33 44";
+  Car f1 = new Car();
 
-f2[1].nameA[0] = f1.name[0];
-System.out.println("Print-3: " + f2[1].nameA[0]);
+  fl.setName(fA);
+  f1.setName(fS);
+  System.out.println("Print-1; " + fA[0] + "; " + f1.name[0]);
 
-f2[1] = f1;
-System.out.println('Print-4: " + f2[1].nameA[0]);
+  Car [] f2 = new Car[2];
+  f2[0] = f1;
+  System.out.println("Print-2: " + f2[0].nameA[0] + "; " + f2[0].nameA[1]);
+
+  f2[1].nameA[0] = f1.name[0];
+  System.out.println("Print-3: " + f2[1].nameA[0]);
+
+  f2[1] = f1;
+  System.out.println('Print-4: " + f2[1].nameA[0]);
+  }
 }
