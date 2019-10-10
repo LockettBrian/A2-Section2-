@@ -1,4 +1,4 @@
-package Vechicle'
+package Vechicle;
 
 class Car {
   String nameS;
